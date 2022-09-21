@@ -17,7 +17,4 @@ func main() {
 	fmt.Println(name)  // 0x20818a220
 	fmt.Println(*name) // ""
 
-	// boolean
-	var exist bool = true
-	fmt.Printf("exist? %t \n", exist)
 }

@@ -17,4 +17,16 @@ func main() {
 
 	fmt.Printf("bilangan desimal: %f\n", decimalNumber)
 	fmt.Printf("bilangan desimal: %.3f\n", decimalNumber)
+
+	// boolean
+	var exist bool = true
+	fmt.Printf("exist? %t \n", exist)
+
+	// string
+
+	var message = `Nama saya "John Wick".
+	Salam kenal.
+	Mari belajar "Golang".`
+
+	fmt.Println(message)
 }
