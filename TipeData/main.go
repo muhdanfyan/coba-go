@@ -3,17 +3,18 @@ package main
 import "fmt"
 
 func main() {
-	var firstName string = "john"
 
-	var lastName string
-	lastName = "wick"
+	// positif negatif
+	var positiveNumber uint8 = 89
+	var negativeNumber = -1243423644
 
-	fmt.Printf("halo john wick!\n")
-	fmt.Printf("halo %s %s!\n", firstName, lastName)
-	fmt.Println("halo", firstName, lastName+"!")
+	fmt.Printf("bilangan positif: %d\n", positiveNumber)
+	fmt.Printf("bilangan negatif: %d\n", negativeNumber)
 
-	name := new(string)
+	// Numerik Desimal
 
-	fmt.Println(name)  // 0x20818a220
-	fmt.Println(*name) // ""
+	var decimalNumber = 2.62
+
+	fmt.Printf("bilangan desimal: %f\n", decimalNumber)
+	fmt.Printf("bilangan desimal: %.3f\n", decimalNumber)
 }
